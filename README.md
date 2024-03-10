@@ -4,6 +4,8 @@
 
 The Population plugin is designed to provide players with essential information about the current in-game time, the number of online players, and the count of sleeping players. This information is accessible via the `/pop` command, making it convenient for players to access relevant server statistics at any time.
 
+<img src="https://github.com/ItsJoshBrown/Population/raw/main/img/Population-Screenshot.png" alt="Population Screenshot" width="auto" height="100">
+
 
 ## Features
 
