@@ -21,7 +21,7 @@ This will provide players with essential information about the current in-game t
 
 1. **Download the `Population.cs` file from the repository.**
 2. **Place the downloaded file in your Rust server's root directory under `oxide/plugins`.**
-3. **The Plugin should load automatically if not youc an run `o.load Population`. if all else fails you should be able to get it loaded after you restart your Rust server to load the plugin.**
+3. **The Plugin should load automatically if not you can run `o.load Population`. if all else fails you should be able to get it loaded after you restart your Rust server to load the plugin.**
 
 ## Permissions
 
