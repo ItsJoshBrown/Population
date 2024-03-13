@@ -6,7 +6,7 @@ The Population plugin is designed to work with [uMod/Oxide](https://umod.org/gam
 
 This will provide players with essential information about the current in-game time, the number of online players, and the count of sleeping players. This information is accessible via the `/pop` command. 
 
-<img src="https://github.com/ItsJoshBrown/Population/raw/main/img/Population-Screenshot.png" alt="Population Screenshot" width="auto" height="100">
+![Population Screenshot](https://github.com/ItsJoshBrown/Population/raw/main/img/Population-Screenshot.png)
 
 
 ## Features
@@ -66,19 +66,18 @@ The plugin configuration is stored in JSON format and can be found in the `Popul
 
 **CommandSettings**: Allows customization of the chat commands used to trigger the population information display.
 
-- **ChatCommands**: An array of strings representing the chat commands that can trigger the population display. The default is `/Pop` and `/population`. This can be customized wiht your own command just go to `oxide/plugins/Population.json` and replace the default value with your own.
+- **ChatCommands**: The default commands are `/Pop` and `/population`. This can be customized with your command just go to `oxide/plugins/Population.json` and replace the default value with your own.
 
 **DisplaySettings**: Allows customization of the displayed information and colors.
 
 - **DisplayedInformation**: Specifies which information to display.
-  - **CurrentTime**: Whether to display the current in-game time. `(true/false)`
-  - **PlayersOnline**: Whether to display the count of online players. `(true/false)`
-  - **Sleepers**: Whether to display the count of sleeping players. `(true/false)`
+- **CurrentTime**: Whether to display the current in-game time. `(true/false)`
+- **PlayersOnline**: Whether to display the count of online players. `(true/false)`
+- **Sleepers**: Whether to display the count of sleeping players. `(true/false)`
 
 ### Important 
 If the `DisplaySettings` are set to false, it will bypass the permissions and not allow that specific message to populate.
-
-I primarly put this in place so Server-Admins have the ability to disable a specific message, if it's not something they wish to share when someone is using the plugin.
+I primarily put this in place so Server-Admins can disable a specific message if it's not something they wish to share when someone is using the plugin.
 
 
 ## Support
